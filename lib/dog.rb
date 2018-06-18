@@ -1,15 +1,13 @@
-# Your code goes here!
 class Dog
+  def name=(dogs_name)
+      @name = dogs_name
+    end
 
-  def name
-    @name
-  end
+    def name
+      @name
+    end
 
-  def name=(fido)
-    @name = fido
-  end
-
-  def bark
-    puts "woof!"
-  end
+    def bark
+      puts "woof!"
+    end
 end
